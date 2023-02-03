@@ -160,10 +160,25 @@ export default function main(_) {
      * 主页banner动效
      */
     (() => {
-        if (_.__config.animate.homeBanner.enable) {
-            import(/* webpackChunkName: "circleMagic" */ '../vendor/circleMagic/circleMagic').then(module => {
-                $('.main-header').circleMagic(_.__config.animate.homeBanner.options);
-            });
+        const homeBannerConf = _.__config.animate.homeBanner
+        if (homeBannerConf.enable) {
+            // 自定义动画脚本
+            if(homeBannerConf.animate && homeBannerConf.animate.script && homeBannerConf.animate.onload) {
+                let script = homeBannerConf.animate.script
+                if(Object.prototype.toString.call(script) === '[object Array]') {
+                    let listIndex = _.__tools.randomNum(0, script.length - 1);
+                    script = script[listIndex]
+                }
+                const scriptElm = document.createElement('script')
+                scriptElm.src = script
+                scriptElm.defer = true
+                scriptElm.onload = homeBannerConf.animate.onload.bind(this, $('.main-header')[0])
+                document.head.appendChild(scriptElm)
+            } else {
+                import(/* webpackChunkName: "circleMagic" */ '../vendor/circleMagic/circleMagic').then(module => {
+                    $('.main-header').circleMagic(homeBannerConf.options);
+                });
+            }
         }
     })();
 }
