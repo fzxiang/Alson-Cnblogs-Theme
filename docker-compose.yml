@@ -8,6 +8,7 @@ services:
     restart: always
     
     environment:
-      WEB_PORT: ${WEB_PORT:-5100}
+      WEB_PORT: ${WEB_PORT:-80}
+      API_PORT: ${APP_PORT:-3010}
     ports:
       - ${APP_PORT:-3010}:${WEB_PORT:-80}
