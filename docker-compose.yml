@@ -1,10 +1,10 @@
 services:
   frontend: 
-    container_name: cnblog_theme_simpleMemory
+    container_name: cnblog_theme
     build: 
       context: ./
-      dockerfile: Dockerfile
-    image: cnblog_theme_simpleMemory:${VERSION:-latest}
+      dockerfile: .Dockerfile
+    image: cnblog_theme:${VERSION:-latest}
     restart: always
     
     environment:
