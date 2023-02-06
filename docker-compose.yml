@@ -1,0 +1,13 @@
+services:
+  frontend: 
+    container_name: cnblog_theme_simpleMemory
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    image: cnblog_theme_simpleMemory:${VERSION:-latest}
+    restart: always
+    
+    environment:
+      WEB_PORT: ${WEB_PORT:-5100}
+    ports:
+      - ${APP_PORT:-3010}:${WEB_PORT:-80}
