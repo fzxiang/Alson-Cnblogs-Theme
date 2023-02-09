@@ -1,5 +1,5 @@
 {
-  "name": "Cnblogs-Theme-SimpleMemory",
+  "name": "Alson-Cnblogs-Theme",
   "version": "2.0.0",
   "description": "<div align=\"center\">",
   "main": "index.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BNDong/Cnblogs-Theme-SimpleMemory.git"
+    "url": "git+https://github.com/fzxiang/Alson-Cnblogs-Theme.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/issues"
+    "url": "https://github.com/fzxiang/Alson-Cnblogs-Theme/issues"
   },
-  "homepage": "https://github.com/BNDong/Cnblogs-Theme-SimpleMemory#readme",
+  "homepage": "https://github.com/fzxiang/Alson-Cnblogs-Theme#readme",
   "devDependencies": {
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.0-beta3",

@@ -49,26 +49,26 @@
 ### GhUserName - GitHub用户
 
 * 类型：```String```
-* 默认值：```BNDong```
+* 默认值：```fzxiang```
 
 GitHub用户名(不是昵称)，注意大小写。
 
 ```javascript
 window.cnblogsConfig = {
-    GhUserName: 'BNDong',
+    GhUserName: 'fzxiang',
 }
 ```
 
 ### GhRepositories - GitHub仓库
 
 * 类型：```String```
-* 默认值：```Cnblogs-Theme-SimpleMemory```
+* 默认值：```Alson-Cnblogs-Theme```
 
 GitHub主题仓库名称。
 
 ```javascript
 window.cnblogsConfig = {
-    GhRepositories: 'Cnblogs-Theme-SimpleMemory',
+    GhRepositories: 'Alson-Cnblogs-Theme',
 }
 ```
 
@@ -100,7 +100,7 @@ window.cnblogsConfig = {
 
 ```javascript
 window.cnblogsConfig = {
-    blogUser: 'BNDong',
+    blogUser: 'fzxiang',
 }
 ```
 
@@ -197,7 +197,7 @@ window.cnblogsConfig = {
 
 ```javascript
 window.cnblogsConfig = {
-    webpageIcon: "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/blog_logo.webp",
+    webpageIcon: "https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@master/img/webp/blog_logo.webp",
 }
 ```
 
@@ -237,7 +237,7 @@ window.cnblogsConfig = {
 ### fontIconExtend - 字体图标库扩展
 
 * 类型：```Url```
-* 相关文档：[字体图标库](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/#/Docs/Customization/fonticon)
+* 相关文档：[字体图标库](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/fonticon)
 * 默认值：```""```
 
 字体图标库扩展Css的Url。
@@ -253,7 +253,7 @@ window.cnblogsConfig = {
 ### menuCustomList - 菜单数据
 
 * 类型：```Object```
-* 相关文档：[字体图标库](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/#/Docs/Customization/fonticon)
+* 相关文档：[字体图标库](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/fonticon)
 * 默认值：```{}```
 
 自定义菜单数据，显示在默认数据下方。
@@ -263,21 +263,21 @@ window.cnblogsConfig = {
     menuCustomList: {
         "title1": { // 标题
             "data": [ // 列表数据 ['列表', '链接']
-                ['我的博客1', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客2', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客3', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客4', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客5', 'https://www.cnblogs.com/bndong/'],
+                ['我的博客1', 'https://www.cnblogs.com/alson/'],
+                ['我的博客2', 'https://www.cnblogs.com/alson/'],
+                ['我的博客3', 'https://www.cnblogs.com/alson/'],
+                ['我的博客4', 'https://www.cnblogs.com/alson/'],
+                ['我的博客5', 'https://www.cnblogs.com/alson/'],
             ],
             "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
         },
         "title2": { // 标题
             "data": [ // 列表数据 ['列表', '链接']
-                ['我的博客6', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客7', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客8', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客9', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客10', 'https://www.cnblogs.com/bndong/'],
+                ['我的博客6', 'https://www.cnblogs.com/alson/'],
+                ['我的博客7', 'https://www.cnblogs.com/alson/'],
+                ['我的博客8', 'https://www.cnblogs.com/alson/'],
+                ['我的博客9', 'https://www.cnblogs.com/alson/'],
+                ['我的博客10', 'https://www.cnblogs.com/alson/'],
             ],
             "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
         },
@@ -298,8 +298,8 @@ icon 支持与定义，要求版本 >= v1.3.2
 ```javascript
 window.cnblogsConfig = {
     menuNavList: [ // 列表数据 ['导航名称', '链接', 'icon']
-        ['我的博客1', 'https://www.cnblogs.com/bndong/', 'icon-github'],
-        ['我的博客2', 'https://www.cnblogs.com/bndong/', 'icon-github'],
+        ['我的博客1', 'https://www.cnblogs.com/alson/', 'icon-github'],
+        ['我的博客2', 'https://www.cnblogs.com/alson/', 'icon-github'],
     ],
 }
 ```
@@ -350,7 +350,7 @@ window.cnblogsConfig = {
 ### loading
 
 * 类型：```Object```
-* 相关文档：[Loading](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/#/Docs/Customization/loading)
+* 相关文档：[Loading](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/loading)
 * 默认值：
 
 ```json
@@ -535,7 +535,7 @@ window.cnblogsConfig = {
 
 ```json
 [
-    "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp"
+    "https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@master/img/webp/home_top_bg.webp"
 ]
 ```
 
@@ -544,8 +544,8 @@ window.cnblogsConfig = {
 ```javascript
 window.cnblogsConfig = {
     homeTopImg: [
-        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp",
-        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp"
+        "https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@master/img/webp/home_top_bg.webp",
+        "https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@master/img/webp/home_top_bg.webp"
     ],
 }
 ```
@@ -607,7 +607,7 @@ one：每日获取一句话
 
 ```json
 [
-    "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp"
+    "https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@master/img/webp/nothome_top_bg.webp"
 ]
 ```
 
@@ -616,8 +616,8 @@ one：每日获取一句话
 ```javascript
 window.cnblogsConfig = {
     essayTopImg: [
-        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp",
-        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp"
+        "https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@master/img/webp/nothome_top_bg.webp",
+        "https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@master/img/webp/nothome_top_bg.webp"
     ],
 }
 ```
@@ -783,7 +783,7 @@ window.cnblogsConfig = {
 
 ### 使用 highlightjs 渲染代码
 
-* 相关文档：[highlight](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/#/Docs/Guide/highlight)
+* 相关文档：[highlight](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Guide/highlight)
 
 #### essayCodeHighlightingType
 
@@ -916,11 +916,11 @@ window.cnblogsConfig = {
 ```javascript
 window.cnblogsConfig = {
     bottomBlogroll: [ // 友情链接，[[链接名,链接]....]
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
     ],
 }
 ```
@@ -968,9 +968,9 @@ window.cnblogsConfig = {
 ```javascript
 window.cnblogsConfig = {
     consoleList: [
-         ['BNDong CNBlogs', 'https://www.cnblogs.com/bndong'],
-         ['BNDong GitHub', 'https://github.com/BNDong'],
-         ['BNDong Email', 'dbuo@foxmail.com'],
+         ['fzxiang CNBlogs', 'https://www.cnblogs.com/alson'],
+         ['fzxiang GitHub', 'https://github.com/fzxiang'],
+         ['fzxiang Email', 'dbuo@foxmail.com'],
     ],
 }
 ```
@@ -999,7 +999,7 @@ window.cnblogsConfig = {
 ?> 版本 >= v1.2.6
 
 * 类型：```Boolean```
-* 相关文档：[版本映射](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/#/Docs/Guide/versionMapping)
+* 相关文档：[版本映射](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Guide/versionMapping)
 * 默认值：```false```
 
 是否开启版本映射，默认关闭。

@@ -1,6 +1,6 @@
 # 友链
 
-样式参考：[https://www.cnblogs.com/bndong/p/14708992.html](https://www.cnblogs.com/bndong/p/14708992.html)
+样式参考：[https://www.cnblogs.com/alson/p/14708992.html](https://www.cnblogs.com/alson/p/14708992.html)
 
 ## 配置方式
 
@@ -24,14 +24,14 @@
 
 ### 配置友链数据
 
-友链的配置，可以参考其他[配置](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/config)的方式。例如：
+友链的配置，可以参考其他[配置](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/config)的方式。例如：
 
 ```javascript
 window.cnblogsConfig = {
   links: {
     page: [
       {
-        name: 'BNDong', // 昵称
+        name: 'fzxiang', // 昵称
         introduction: 'IT技术类博客', // 简介
         avatar: 'https://blog.dbnuo.com/images/avatar.gif', // 头像
         url: 'https://blog.dbnuo.com' // 友链地址
@@ -53,49 +53,49 @@ window.cnblogsConfig = {
     // 友链配置
     window.cnblogsConfig.links.page = [
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'
       },
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'
       },
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'
       },
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'
       },
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'
       },
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'
       },
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'
       },
       {
-        name: 'BNDong',
+        name: 'fzxiang',
         introduction: 'IT技术类博客',
         avatar: 'https://blog.dbnuo.com/images/avatar.gif',
         url: 'https://blog.dbnuo.com'

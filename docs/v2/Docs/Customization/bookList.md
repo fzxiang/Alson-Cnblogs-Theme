@@ -1,6 +1,6 @@
 # 书单
 
-样式参考：[https://www.cnblogs.com/bndong/p/10300036.html](https://www.cnblogs.com/bndong/p/10300036.html)
+样式参考：[https://www.cnblogs.com/alson/p/10300036.html](https://www.cnblogs.com/alson/p/10300036.html)
 
 ## 配置方式
 
@@ -24,7 +24,7 @@
 
 ### 配置书单数据
 
-书单的配置，可以参考其他[配置](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/config)的方式。例如：
+书单的配置，可以参考其他[配置](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/config)的方式。例如：
 
 ```javascript
 window.cnblogsConfig = {

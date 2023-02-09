@@ -1,7 +1,4 @@
 /**
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
  * ----------------------------------------------
  * @describe: 文章页公共处理部分
  * 由于书单页、友链页等部分页面基础是文章页，所以共通部分提取至此来处理
