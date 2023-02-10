@@ -1,7 +1,4 @@
 /**
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
  * @param words [] 循环文字数组
  * @param id string 文字domId
  * @param conId string 符合domId

@@ -1,7 +1,4 @@
 /**
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
  * ----------------------------------------------
  * @describe: 图片灯箱处理
  */

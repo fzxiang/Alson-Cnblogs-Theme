@@ -33,11 +33,11 @@
 
 本主题当前页面所涉及的配置有：
 
-- 控件显示设置/公告 [#86](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/issues/86)
+- 控件显示设置/公告 [#86](https://github.com/fzxiang/Alson-Cnblogs-Theme/issues/86)
 
 ## 获取需要使用的版本
 
-进入主题仓库：[GitHub](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
+进入主题仓库：[GitHub](https://github.com/fzxiang/Alson-Cnblogs-Theme)
 
 切换版本：
 
@@ -81,10 +81,10 @@ CSS代码位置：```/dist/simpleMemory.css``` 拷贝此文件代码至页面定
       },
     }
 </script>
-<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v2.1.2/dist/simpleMemory.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@v2.1.2/dist/simpleMemory.js" defer></script>
 ```
 
-详细配置参考相关[文档](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/config)。
+详细配置参考相关[文档](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/config)。
 
 ### 开启公告控件
 

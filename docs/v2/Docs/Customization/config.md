@@ -112,7 +112,7 @@ window.cnblogsConfig = {
 ### navList - 菜单导航
 
 * 类型：```Array```
-* 相关文档：[字体图标库](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/fonticon)
+* 相关文档：[字体图标库](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/fonticon)
 * 默认值：```[]```
 
 自定义菜单导航，显示在默认导航下方。
@@ -121,8 +121,8 @@ window.cnblogsConfig = {
 window.cnblogsConfig = {
   sidebar: { // 列表数据 ['导航名称', '链接', 'icon']
     navList: [
-        ['我的博客1', 'https://www.cnblogs.com/bndong/', 'icon-github'],
-        ['我的博客2', 'https://www.cnblogs.com/bndong/', 'icon-github'],
+        ['我的博客1', 'https://www.cnblogs.com/alson/', 'icon-github'],
+        ['我的博客2', 'https://www.cnblogs.com/alson/', 'icon-github'],
     ],
   },
 }
@@ -131,7 +131,7 @@ window.cnblogsConfig = {
 ### customList - 菜单数据
 
 * 类型：```Object```
-* 相关文档：[字体图标库](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/fonticon)
+* 相关文档：[字体图标库](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/fonticon)
 * 默认值：```{}```
 
 自定义菜单数据，显示在默认数据上方。
@@ -142,21 +142,21 @@ window.cnblogsConfig = {
     customList: {
         "title1": { // 标题
             "data": [ // 列表数据 ['列表', '链接']
-                ['我的博客1', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客2', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客3', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客4', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客5', 'https://www.cnblogs.com/bndong/'],
+                ['我的博客1', 'https://www.cnblogs.com/alson/'],
+                ['我的博客2', 'https://www.cnblogs.com/alson/'],
+                ['我的博客3', 'https://www.cnblogs.com/alson/'],
+                ['我的博客4', 'https://www.cnblogs.com/alson/'],
+                ['我的博客5', 'https://www.cnblogs.com/alson/'],
             ],
             "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
         },
         "title2": { // 标题
             "data": [ // 列表数据 ['列表', '链接']
-                ['我的博客6', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客7', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客8', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客9', 'https://www.cnblogs.com/bndong/'],
-                ['我的博客10', 'https://www.cnblogs.com/bndong/'],
+                ['我的博客6', 'https://www.cnblogs.com/alson/'],
+                ['我的博客7', 'https://www.cnblogs.com/alson/'],
+                ['我的博客8', 'https://www.cnblogs.com/alson/'],
+                ['我的博客9', 'https://www.cnblogs.com/alson/'],
+                ['我的博客10', 'https://www.cnblogs.com/alson/'],
             ],
             "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
         },
@@ -307,7 +307,7 @@ window.cnblogsConfig = {
 ## loading - 加载loading
 
 * 类型：```Object```
-* 相关文档：[Loading](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/loading)
+* 相关文档：[Loading](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/loading)
 * 默认值：
 
 ```json
@@ -353,7 +353,7 @@ window.cnblogsConfig = {
 ## fontIconExtend - 字体图标库
 
 * 类型：```Url```
-* 相关文档：[字体图标库](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/fonticon)
+* 相关文档：[字体图标库](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/fonticon)
 * 默认值：```""```
 
 字体图标库扩展Css的Url。
@@ -558,11 +558,11 @@ window.cnblogsConfig = {
 window.cnblogsConfig = {
   links: {
     footer: [
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
-        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/fzxiang'],
     ],
   },
 }
@@ -571,7 +571,7 @@ window.cnblogsConfig = {
 ### page - 友链页
 
 * 类型：```Array```
-* 相关文档：[友链](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v2/#/Docs/Customization/links)
+* 相关文档：[友链](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/links)
 * 默认值：```[]```
 
 友链页。需要在页面源码中添加 `<input id="linkListFlg" type="hidden" />`
@@ -581,7 +581,7 @@ window.cnblogsConfig = {
   links: {
     page: [
       {
-        name: 'BNDong', // 昵称
+        name: 'fzxiang', // 昵称
         introduction: 'IT技术类博客', // 简介
         avatar: 'https://blog.dbnuo.com/images/avatar.gif', // 头像
         url: 'https://blog.dbnuo.com' // 友链地址
@@ -698,6 +698,19 @@ window.cnblogsConfig = {
         density: 0.2,
         color: 'rgba(255,255,255, .2)', // 颜色设置，“random” 为随机颜色
         clearOffset: 0.3
+    },
+     // 如果设置自定义homeBanner.animate动画脚本，替换默认动画配置项homeBanner.options
+    animate: {
+      script: [
+        'https://blog-static.cnblogs.com/files/alson/rocket.min.js',
+        'https://blog-static.cnblogs.com/files/alson/plane.umd.js',
+        'https://blog-static.cnblogs.com/files/alson/rabbit.min.js',
+      ],
+      onload: (element) => {
+        __animation__.render({
+          element: element
+        })
+      }
     }
 }
 ```
@@ -1159,9 +1172,9 @@ window.cnblogsConfig = {
 ```javascript
 window.cnblogsConfig = {
     consoleList: [
-         ['BNDong CNBlogs', 'https://www.cnblogs.com/bndong'],
-         ['BNDong GitHub', 'https://github.com/BNDong'],
-         ['BNDong Email', 'dbuo@foxmail.com'],
+         ['fzxiang CNBlogs', 'https://www.cnblogs.com/alson'],
+         ['fzxiang GitHub', 'https://github.com/fzxiang'],
+         ['fzxiang Email', 'dbuo@foxmail.com'],
     ],
 }
 ```

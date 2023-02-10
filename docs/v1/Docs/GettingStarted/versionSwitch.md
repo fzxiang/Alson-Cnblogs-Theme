@@ -5,8 +5,8 @@
 由于 v1.0.0 与 v1.\*.* 版本的配置方式不同，所以建议依据各版本的配置方式重新配置主题。
 
 各版本文档：
-- [v1.\*.*](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/)
-- [v1.0.*](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.0/)
+- [v1.\*.*](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/)
+- [v1.0.*](https://bndong.github.io/Alson-Cnblogs-Theme/v1.0/)
 
 ## v1.\*.* 之间切换版本
 
@@ -16,7 +16,7 @@ v1.\*.* 之间切换版本比较简便。
 
 ### 切换代码版本
 
-进入主题仓库：[GitHub](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
+进入主题仓库：[GitHub](https://github.com/fzxiang/Alson-Cnblogs-Theme)
 
 切换版本：
 
@@ -37,7 +37,7 @@ v1.\*.* 之间切换版本比较简便。
         ...
     }
 </script>
-<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.1.2/src/script/simpleMemory.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@v1.1.2/src/script/simpleMemory.min.js"></script>
 ```
 
 **1) 修改版本配置**
@@ -47,13 +47,13 @@ v1.\*.* 之间切换版本比较简便。
 **2) 更改 simpleMemory.min.js 引入的版本**
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.1.2/src/script/simpleMemory.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@v1.1.2/src/script/simpleMemory.min.js"></script>
 ```
 
 变为
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.1.4/src/script/simpleMemory.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@v1.1.4/src/script/simpleMemory.min.js"></script>
 ```
 
 **变更版本后配置：**
@@ -65,7 +65,7 @@ v1.\*.* 之间切换版本比较简便。
         ...
     }
 </script>
-<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.1.4/src/script/simpleMemory.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@v1.1.4/src/script/simpleMemory.min.js"></script>
 ```
 
 至此版本切换完毕！

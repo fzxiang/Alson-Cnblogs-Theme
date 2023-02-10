@@ -1,3 +1,7 @@
+## 2022.10.08 - v2.2.0
+* 新增动画背景自定义 - 支持引入threeJS脚本动画渲染背景
+## 2023.02.08 - v2.1.3
+* 文档新增了codespaces开发调试指南
 ## 2022.10.08 - v2.1.1
 * 评估集成了一些网友提供的优化解决方案（感谢！）
 * 侧边栏增加网站统计
@@ -223,7 +227,7 @@
 
 ## 2019.12.16 - v1.2.3
 * 增加书单配置：```bookList```
-* 增加关于书单设置[文档](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/#/Docs/Customization/bookList)
+* 增加关于书单设置[文档](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/bookList)
 * 优化文章标题和目录生成逻辑
 * 新的代码复制功能和样式
 * 更新基础 CSS 文件
