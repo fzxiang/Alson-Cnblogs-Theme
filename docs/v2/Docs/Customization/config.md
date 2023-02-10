@@ -698,6 +698,19 @@ window.cnblogsConfig = {
         density: 0.2,
         color: 'rgba(255,255,255, .2)', // 颜色设置，“random” 为随机颜色
         clearOffset: 0.3
+    },
+     // 如果设置自定义homeBanner.animate动画脚本，替换默认动画配置项homeBanner.options
+    animate: {
+      script: [
+        'https://blog-static.cnblogs.com/files/alson/rocket.min.js',
+        'https://blog-static.cnblogs.com/files/alson/plane.umd.js',
+        'https://blog-static.cnblogs.com/files/alson/rabbit.min.js',
+      ],
+      onload: (element) => {
+        __animation__.render({
+          element: element
+        })
+      }
     }
 }
 ```

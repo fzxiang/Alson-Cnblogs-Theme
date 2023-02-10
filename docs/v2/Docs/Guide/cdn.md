@@ -35,4 +35,4 @@
 
 ##### 2. 安装证书
 - ZeroSSl下载的证书包，需要将模块包`ca-boundle.crt`和并到`certificate.crt`中（手动扣过去就行）,并替换仓库`ssl`下的证书文件
-- 服务器拉取最新代码，执行`docker compose up -d --force-recreate  --build --remove-orphans`
+- 服务器拉取最新代码，执行`docker-compose up -d --force-recreate  --build --remove-orphans`
