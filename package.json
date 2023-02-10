@@ -1,7 +1,7 @@
 {
-  "name": "Alson-Cnblogs-Theme",
+  "name": "alson-cnblogs-theme",
   "version": "2.2.0",
-  "description": "<div align=\"center\">",
+  "description": "Cnblogs博客皮肤",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/fzxiang/Alson-Cnblogs-Theme.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
