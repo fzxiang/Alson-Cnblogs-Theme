@@ -112,7 +112,7 @@
 
 ## 2019.12.16 - v1.2.3
 * 增加书单配置：```bookList```
-* 增加关于书单设置[文档](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/bookList)
+* 增加关于书单设置[文档](https://fzxiang.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/bookList)
 * 优化文章标题和目录生成逻辑
 * 新的代码复制功能和样式
 * 更新基础 CSS 文件

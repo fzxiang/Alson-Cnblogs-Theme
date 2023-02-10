@@ -24,7 +24,7 @@
 
 ### 配置书单数据
 
-书单的配置，可以参考其他[配置](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/config)的方式。例如：
+书单的配置，可以参考其他[配置](https://fzxiang.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/config)的方式。例如：
 
 ```javascript
 window.cnblogsConfig = {
