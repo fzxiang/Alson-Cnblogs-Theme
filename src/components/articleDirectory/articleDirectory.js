@@ -60,9 +60,9 @@ export default function main(_) {
         body.attr('data-bs-target', '#articleDirectory');
         body.attr('data-bs-offset', '0');
         body.attr('tabindex', '0');
-        body.scrollspy({
-            target: '#articleDirectory'
-        });
+        // body.scrollspy({
+        //     target: '#articleDirectory'
+        // });
 
         // 判断是否显示横向滚动条
         if (!_.__config.articleDirectory.autoWidthScroll) {
