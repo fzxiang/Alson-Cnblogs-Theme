@@ -16,7 +16,7 @@ window.cnblogsConfig = {
 
 > 本主题内置图标
 
-[预览页面>>](https://fzxiang.github.io/Alson-Cnblogs-Theme/v2/iconfontDemo/demo_index.html)
+[预览页面>>](https://bndong.github.io/Alson-Cnblogs-Theme/v2/iconfontDemo/demo_index.html)
 
 <iframe  
 height=850

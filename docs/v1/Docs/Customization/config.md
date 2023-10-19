@@ -237,7 +237,7 @@ window.cnblogsConfig = {
 ### fontIconExtend - 字体图标库扩展
 
 * 类型：```Url```
-* 相关文档：[字体图标库](https://fzxiang.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/fonticon)
+* 相关文档：[字体图标库](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/fonticon)
 * 默认值：```""```
 
 字体图标库扩展Css的Url。
@@ -253,7 +253,7 @@ window.cnblogsConfig = {
 ### menuCustomList - 菜单数据
 
 * 类型：```Object```
-* 相关文档：[字体图标库](https://fzxiang.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/fonticon)
+* 相关文档：[字体图标库](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/fonticon)
 * 默认值：```{}```
 
 自定义菜单数据，显示在默认数据下方。
@@ -350,7 +350,7 @@ window.cnblogsConfig = {
 ### loading
 
 * 类型：```Object```
-* 相关文档：[Loading](https://fzxiang.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/loading)
+* 相关文档：[Loading](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Customization/loading)
 * 默认值：
 
 ```json
@@ -783,7 +783,7 @@ window.cnblogsConfig = {
 
 ### 使用 highlightjs 渲染代码
 
-* 相关文档：[highlight](https://fzxiang.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Guide/highlight)
+* 相关文档：[highlight](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Guide/highlight)
 
 #### essayCodeHighlightingType
 
@@ -999,7 +999,7 @@ window.cnblogsConfig = {
 ?> 版本 >= v1.2.6
 
 * 类型：```Boolean```
-* 相关文档：[版本映射](https://fzxiang.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Guide/versionMapping)
+* 相关文档：[版本映射](https://bndong.github.io/Alson-Cnblogs-Theme/v1.1/#/Docs/Guide/versionMapping)
 * 默认值：```false```
 
 是否开启版本映射，默认关闭。

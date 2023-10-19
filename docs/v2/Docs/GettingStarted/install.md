@@ -84,7 +84,7 @@ CSS代码位置：```/dist/simpleMemory.css``` 拷贝此文件代码至页面定
 <script src="https://cdn.jsdelivr.net/gh/fzxiang/Alson-Cnblogs-Theme@v2.1.2/dist/simpleMemory.js" defer></script>
 ```
 
-详细配置参考相关[文档](https://fzxiang.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/config)。
+详细配置参考相关[文档](https://bndong.github.io/Alson-Cnblogs-Theme/v2/#/Docs/Customization/config)。
 
 ### 开启公告控件
 
