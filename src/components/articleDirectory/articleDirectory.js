@@ -35,15 +35,13 @@ export default function main(_) {
             let hid = obj.attr('id');
             let titleId = 'tid-' + _.__tools.randomString(6);
             obj.attr('tid', titleId);
-            if (!hid || /^-?[0-9]+.*/.test(hid)) {
-                if (hid) {
-                    // 兼容修改toc生成的目录
-                    let tocObj = $('.toc a[href="#'+hid+'"]');
-                    tocObj.length && tocObj.attr('href', '#' + titleId);
-                }
-                hid = titleId;
-                obj.attr('id', hid);
+            if (hid) {
+                // 兼容修改toc生成的目录
+                let tocObj = $('.toc a[href="#'+hid+'"]');
+                tocObj.length && tocObj.attr('href', '#' + titleId);
             }
+            hid = titleId;
+            obj.attr('id', hid);
 
             // 添加标题
             let num = uniqTagList.indexOf(h);
